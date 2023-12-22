@@ -6,9 +6,18 @@ The creation of this React hook stems from the necessity to effortlessly manage 
 
 ### Develop
 
-First time
+- First time
 
-```sh
+  ```sh
+  git clone https://github.com/NoamRa/use-search-params-hook.git
+  cd use-search-params-hook
+  npm install
+  ```
 
-npm install
-```
+- Run tests
+
+  ```sh
+  npm run test
+  ```
+
+- Make changes
