@@ -1,30 +1,14 @@
-# React + TypeScript + Vite
+# UseSearchParams React hook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Raison d'être:
 
-Currently, two official plugins are available:
+The creation of this React hook stems from the necessity to effortlessly manage and process URL search parameters within a TypeScript-driven React application. Navigating and extracting information from URL query strings is a common requirement in web development, especially when dealing with dynamic content or user-specific views. This hook simplifies the handling of URL parameters, offering a clean and type-safe solution for developers. It provides a mechanism for maintaining a seamless connection between the application's state and the URL's query parameters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Develop
 
-## Expanding the ESLint configuration
+First time
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+```sh
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+npm install
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
